@@ -11,7 +11,64 @@
 
 html {
   font-family: sans-serif;
+  font-size: 62.5%;
 }
 
 body {
 }
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 1.2rem 2.4rem;
+}
+
+.header-logo {
+  width: 6.4rem;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.header-nav-list .list-item {
+  list-style: none;
+}
+
+.header-icon {
+  background-color: #fff;
+}
+
+.header-actions {
+}
+
+/* track section */
+
+.track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.track-left,
+.track-right {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.track_name {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* media section */
+
+/* footer section */
