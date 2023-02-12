@@ -5,12 +5,12 @@
 
 :root {
   --primary-color: "";
-  --secondary-color: "";
+  --secondary-color: "#50a584";
   --text-black: "";
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
 }
 
@@ -47,28 +47,235 @@ body {
 
 .header-actions {
 }
+/* Hero section */
 
+.hero-section {
+  /* display: flex;
+  align-items: center; */
+  /* justify-content: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 120rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  /* test */
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.hero-section-img {
+  background: red;
+}
+
+.hero-section-content {
+  background-color: lightblue;
+  align-self: center;
+  justify-self: center;
+}
+
+.hero-section-img img {
+  width: 80%;
+}
+
+.hero-section-content_actions {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
 /* track section */
+
+.track-list-section {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.tracks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
 
 .track {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1.2rem 2.4rem;
 }
 
 .track-left,
 .track-right {
   display: flex;
   align-items: center;
-  gap: 1.6rem;
+  gap: 2.8rem;
 }
 
 .track_name {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 0.2rem;
+}
+
+.track_item {
+  font-size: 1.8rem;
+}
+
+.track_num {
+}
+
+.track_play {
+}
+
+.track_name h4 {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.track_name p {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.track_time {
+}
+
+.track_share {
+}
+
+/* platform-section */
+
+.platform-section {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.platforms {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 40rem;
+  align-items: center;
+  justify-items: center;
+  background-color: gray;
+}
+.platform-table {
+  /* background-color: red; */
+}
+
+.platform-table_body {
+  background-color: lightblue;
+}
+
+.platform-table tr {
+}
+
+.platform-table tr td {
 }
 
 /* media section */
 
+/* others-section */
+.others-section {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.releases {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.release {
+  cursor: pointer;
+}
+
+.release img {
+  width: 15rem;
+}
+
+.release h4 {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.release p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.release_name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
 /* footer section */
+
+.footer-section {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.line-break {
+  height: 1px;
+  background-color: lightgray;
+  margin: 3.2rem 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-grid_section {
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.footer-list-item {
+}
+
+.footer-list-item a {
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: black;
+}
+
+.footer-form {
+}
+
+.footer-input-div {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-form input {
+  width: 25rem;
+  padding: 1.2rem 2rem;
+  padding-left: 0;
+  font-size: 1.8rem;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.footer-form h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: gray;
+  margin-bottom: 1.8rem;
+}
+
+.footer-form blockquote {
+  font-size: 1.8rem;
+  margin-bottom: 2.8rem;
+  font-style: italic;
+  line-height: 1.3;
+  font-weight: 500;
+}

@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monstercat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="general.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Header Section -->
     <header class="header">
       <img class="header-logo" src="assets/logo.webp" alt="logo" srcset="" />
 
@@ -55,6 +64,7 @@
       </div>
     </header>
 
+    <!-- Hero Section -->
     <main class="hero-section">
       <div class="hero-section-img">
         <img src="assets/hero.webp" alt="" class="" />
@@ -71,35 +81,326 @@
       </div>
     </main>
 
+    <!-- Platform Section -->
     <section class="platform-section">
       <h2 class="heading-2">Strem it your way</h2>
 
-      <div class="platforms">
-        <table></table>
-      </div>
+      <table class="platform-table">
+        <tbody class="platform-table_body">
+          <tr>
+            <td>
+              <i class="icon-40 bx bx-play-circle"></i>
+            </td>
+            <td>
+              <i class="icon-40 bx bxl-soundcloud"></i>
+            </td>
+
+            <td>
+              <i class="icon-40 bx bxl-apple"></i>
+            </td>
+
+            <td>
+              <i class="icon-40 bx bxl-apple"></i>
+            </td>
+
+            <td>
+              <i class="icon-40 bx bxl-apple"></i>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
+    <!-- Track-list Section -->
     <section class="track-list-section">
       <h2 class="heading-2">Track List</h2>
       <div class="tracks">
         <!-- track-1 -->
         <div class="track">
           <div class="track-left">
-            <div class="tracl_num">1</div>
-            <div class="tracl_play">P</div>
-            <div class="track_name">
+            <div class="track_num track_item">1</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
               <h4>The Small Things</h4>
               <p>Conro</p>
             </div>
           </div>
 
           <div class="track-right">
-            <div class="track_time">3:35</div>
-            <div class="track_share">S</div>
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
           </div>
         </div>
 
         <!-- track-2 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">2</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Without Your Love</h4>
+              <p>David</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- track-3 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">3</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Therapy</h4>
+              <p>David</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- track-4 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">4</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Fighters</h4>
+              <p>David</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- track-5 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">5</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Way Up</h4>
+              <p>David</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- track-6 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">6</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Waiting</h4>
+              <p>Conro</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- track-7 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">7</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Dreaming</h4>
+              <p>Conro</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- track-8 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">8</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Dreaming</h4>
+              <p>Conro</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- track-9 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">8</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Dreaming</h4>
+              <p>Conro</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- track-10 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">8</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Dreaming</h4>
+              <p>Conro</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+
+        <!-- track-11 -->
+        <div class="track">
+          <div class="track-left">
+            <div class="track_num track_item">8</div>
+            <div class="track_play track_item">
+              <i class="bx bx-play icon-32"></i>
+            </div>
+            <div class="track_name track_item">
+              <h4>Dreaming</h4>
+              <p>Conro</p>
+            </div>
+          </div>
+
+          <div class="track-right">
+            <div class="track_time track_item">3:35</div>
+            <div class="track_share track_item">
+              <i class="bx bx-share-alt icon-32"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- other releases -->
+
+    <section class="others-section">
+      <h2 class="heading-2">Other Releases Like This</h2>
+      <!--  -->
+      <div class="releases">
+        <div class="release">
+          <img src="assets/albums/album01.jpg" alt="album-image" />
+          <div class="release_name">
+            <h4 class="">Feeling</h4>
+            <p>Conro</p>
+          </div>
+        </div>
+
+        <div class="release">
+          <img src="assets/albums/album01.jpg" alt="album-image" />
+          <div class="release_name">
+            <h4 class="">Feeling</h4>
+            <p>Conro</p>
+          </div>
+        </div>
+
+        <div class="release">
+          <img src="assets/albums/album01.jpg" alt="album-image" />
+          <div class="release_name">
+            <h4 class="">Feeling</h4>
+            <p>Conro</p>
+          </div>
+        </div>
+
+        <div class="release">
+          <img src="assets/albums/album01.jpg" alt="album-image" />
+          <div class="release_name">
+            <h4 class="">Feeling</h4>
+            <p>Conro</p>
+          </div>
+        </div>
+
+        <div class="release">
+          <img src="assets/albums/album01.jpg" alt="album-image" />
+          <div class="release_name">
+            <h4 class="">Feeling</h4>
+            <p>Conro</p>
+          </div>
+        </div>
+
+        <div class="release">
+          <img src="assets/albums/album01.jpg" alt="album-image" />
+          <div class="release_name">
+            <h4 class="">Feeling</h4>
+            <p>Conro</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -109,16 +410,65 @@
       <iframe src="" frameborder="0"></iframe>
     </section>
 
-    <!-- footer section -->
-
+    <!-- Footer section -->
     <footer class="footer-section">
-      <div class="abount-company"></div>
+      <div class="line-break"></div>
+      <div class="footer-grid">
+        <div class="abount-company footer-grid_section">
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="">About Monstercat</a>
+            </li>
 
-      <div class="policy-company"></div>
+            <li class="footer-list-item">
+              <a href="">Contact Us</a>
+            </li>
 
-      <div class="news-company"></div>
+            <li class="footer-list-item">
+              <a href="">Careers</a>
+            </li>
 
-      
+            <li class="footer-list-item">
+              <a href="">News</a>
+            </li>
+
+            <li class="footer-list-item">
+              <a href="">Press</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="policy-company footer-grid_section">
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="">Terms Of Service</a>
+            </li>
+
+            <li class="footer-list-item">
+              <a href="">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="news-company footer-grid_section">
+          <form action="" class="footer-form">
+            <h4>Monstercat News</h4>
+            <blockquote>
+              Don't miss a thing, stay up to date with the latest news from us
+            </blockquote>
+
+            <div class="footer-input-div">
+              <input type="email" placeholder="Enter email" />
+
+              <button class="form-btn">
+                <i class="icon-32 bx bx-right-arrow-alt"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="line-break"></div>
     </footer>
 
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
